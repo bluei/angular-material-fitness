@@ -1,0 +1,27 @@
+<mat-sidenav-container>
+    <mat-sidenav #sidenav role="navigation">
+        <p>i'm the side nav</p>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <mat-toolbar color="primary">
+            <div>
+                <button mat-icon-button (click)="sidenav.toggle()">
+                    <mat-icon>menu</mat-icon>
+                </button>
+            </div>
+            <div>
+                <a routerLink="/">Logo</a>
+            </div>
+            <ul  class="nav-items-container">
+                <li class="nav-items"><a routerLink="/signup">Signup</a></li>
+                <li class="nav-items"><a routerLink="/login">Log In</a></li>
+                <li class="nav-items"><a routerLink="/training">Training</a></li>
+            </ul>
+        </mat-toolbar>
+        <!-- <button (click)="sidenav.toggle()">Show Sidenav</button> -->
+        <main>
+            <router-outlet></router-outlet>
+        </main>
+        
+    </mat-sidenav-content>
+</mat-sidenav-container>

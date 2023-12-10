@@ -1,0 +1,16 @@
+.signup-form {
+    display: flex;
+    /* width: 300px; */
+    height: 500px;
+    flex-direction: column;
+    /* align-content: center; */
+    background-color: beige;
+
+    justify-content: center;
+    align-items: center;
+}
+
+mat-form-field {
+    width: 300px;
+    margin-bottom: 1em;
+}
