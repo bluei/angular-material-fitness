@@ -1,0 +1,28 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover, 
+a:active{
+    color:lightgray;
+}
+
+.sidenav-text {
+    position: relative;
+    top: -5px;
+    margin-left: 12px;
+    font-size: 16px;
+}
+
+
+.mat-list-item-button {
+    position: relative;
+    margin-left: -10px;
+}
+
+.sidenav-button-text {
+    position: relative;
+    top: -5px;
+    font-size: 16px;
+}

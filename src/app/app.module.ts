@@ -14,6 +14,14 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FlexTestComponent } from './flex-test/flex-test.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatNavComponent } from './mat-nav/mat-nav.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
+import { HeaderComponent } from './navigation/header/header.component';
+import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +33,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     PastTrainingsComponent,
     LoginComponent,
     WelcomeComponent,
-    FlexTestComponent
+    FlexTestComponent,
+    MatNavComponent,
+    HeaderComponent,
+    SidenavListComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +44,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MaterialModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

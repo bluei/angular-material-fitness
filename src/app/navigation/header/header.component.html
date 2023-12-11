@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+    <div>
+        <button mat-icon-button (click)="onToggleSidenav()">
+            <mat-icon>menu</mat-icon>
+        </button>
+    </div>
+    <div>
+        <a routerLink="/">Logo</a>
+    </div>
+    <ul  class="nav-items-container">
+        <li class="nav-items"><a routerLink="/signup">Signup</a></li>
+        <li class="nav-items"><a routerLink="/login">Log In</a></li>
+        <li class="nav-items"><a routerLink="/training">Training</a></li>
+    </ul>
+</mat-toolbar>

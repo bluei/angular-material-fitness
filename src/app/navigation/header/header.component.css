@@ -1,0 +1,24 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover, 
+a:active{
+    color:lightgray;
+}
+
+.nav-items-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 10px;
+    /* background-color: yellow; */
+}
+
+.nav-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
